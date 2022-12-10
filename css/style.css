@@ -1,0 +1,41 @@
+@import "../css/header.css";
+@import "../css/main.css";
+@import "../css/experiencia.css";
+@import "../css/formacao.css";
+@import "../css/footer.css";
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: "Fira Sans", Arial, Helvetica, sans-serif;
+  color: #141414;
+}
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  text-decoration: none;
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+@media (max-width: 700px) {
+  .section-experiencia {
+    font-size: 3rem;
+    text-transform: capitalize;
+    max-width: initial !important;
+  }
+}
